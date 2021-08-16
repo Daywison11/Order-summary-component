@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2? family = Red + Hat + Display: ital, wght @ 0,700; 0,900; 1,500 & display = swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    Font-size: 16px;
+}
+
+body{
+    background-color: hsl(225, 100%, 98%);
+}
+.fundo .imgF{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.imgT{
+    width:100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.container{
+    position: absolute;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 375px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.24);
+}
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 15px;
+
+}
+.txt{
+    font: 11px; 
+    text-align: center;
+    margin: 10px auto;
+    max-width: 290px;
+}
+.preco{
+    display: flex;
+    align-items: center;
+    max-width: 290px;
+    height: 60px;
+    margin: 20px auto;
+    font-size: 14px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding:10px;
+}
+p{
+    color: grey;
+}
+a{
+    font-size: 16px;
+    display: block;
+    margin: 0px 0px 0px 180px;
+    padding: 0px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    width: 290px;
+    height: 40px;
+    border: none;
+}
+.btazul{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}
+.btli{
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 13px;
+    color: grey;
+    padding-bottom: 50px;
+    
+}
+
+@media (max-width: 370px){
+
+}
